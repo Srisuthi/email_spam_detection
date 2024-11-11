@@ -1,0 +1,79 @@
+/* global.css */
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(34, 174, 192);
+}
+
+
+.emailinput {
+  width: 80%;
+  height: 100px;
+  padding: 10px;
+  font-size: 20px;
+  max-width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  background-color: rgb(218, 218, 226);
+  overflow-y: auto; /* Enables vertical scroll when content overflows */
+  color: rgb(35, 35, 37);
+  caret-color: white;
+  box-shadow: 2px 4px 10px rgba(255, 255, 255, 0.6);
+  box-sizing: border-box;
+}
+
+button { 
+  justify-content: center;
+  display: flex;
+  margin-top: 20px; 
+  margin-left: 700px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: rgb(14, 12, 12);
+  background-color: rgb(34, 174, 192);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 4px 10px rgba(255, 255, 255, 0.6); 
+}
+button:hover {
+  background-color: rgb(24, 80, 163);
+}
+.response-message {
+  font-family: 'Arial', sans-serif; /* Change to your preferred font */
+  font-size: 18px; /* Adjust font size as needed */
+  font-weight: bold; /* Optional: makes text bold */
+  color: #f7efef; /* Optional: change text color */
+  line-height: 1.5; /* Optional: adjust line spacing */
+  margin-top: 10px;
+}
+
+
+.email {
+  width: 80%;
+  height: 100px;
+  padding: 10px;
+  font-size: 20px;
+  max-width: 100%;
+  border-radius: 5px;
+  font-family: 'Arial', sans-serif; /* Changed font to Arial */
+  margin-top: 10px;
+  background-color: black; /* Changed background color to black */
+  color: white; /* Changed text color to white */
+  caret-color: white; /* Adjusts caret color to white */
+  /* overflow-y: auto; */
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
