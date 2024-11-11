@@ -3,3 +3,4 @@ Flask-CORS
 joblib
 pandas
 scikit-learn
+gunicorn==21.2.0
