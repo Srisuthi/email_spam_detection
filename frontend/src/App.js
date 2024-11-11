@@ -17,7 +17,7 @@ function App() {
     if (email) {
       setIsChecked(true); // Mark as checked when the button is clicked
       try {
-        const response = await axios.post("http://localhost:5000/predict", {
+        const response = await axios.post("https://email-spam-detectionn.onrender.com/predict", {
           emails: [email],
         });
         setResponseMessage(
