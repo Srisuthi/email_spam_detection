@@ -1,3 +1,5 @@
+
+
 import React, { useState } from "react";
 import axios from "axios";
 import "./App.css";
@@ -18,6 +20,7 @@ function App() {
       setIsChecked(true); // Mark as checked when the button is clicked
       try {
         const response = await axios.post("https://email-spam-detectionn.onrender.com/predict", {
+
           emails: [email],
         });
         setResponseMessage(
@@ -45,10 +48,11 @@ function App() {
       />
 
       <button onClick={handleCheckEmail}>Check</button>
+      {responseMessage && <p className="response-message">{responseMessage}</p>}
+
       
         {isChecked && email && <p className="email">Your email: {email}</p>}{" "}
       
-        {responseMessage && <p className="response-message">{responseMessage}</p>}
         </div>
   );
 }
